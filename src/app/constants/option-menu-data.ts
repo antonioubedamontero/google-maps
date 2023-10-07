@@ -2,7 +2,7 @@ import { MenuOption } from '../interfaces/menu-option';
 
 export const OPTION_MENU_DATA: MenuOption[] = [
   { label: 'Basic', page: '/basic', disabled: false },
-  // { label: 'Marker', page: '/marker', disabled: true },
+  { label: 'Marker', page: '/marker', disabled: true },
   // { label: 'Info window', page: '/info-window', disabled: true },
   // { label: 'Polyline', page: '/poly-line', disabled: true },
   // { label: 'Polygon', page: '/polygon', disabled: true },
@@ -15,9 +15,9 @@ export const OPTION_MENU_DATA: MenuOption[] = [
   // { label: 'Bicycle layer', page: '/bcycle-layer', disabled: true },
   // { label: 'Direction Renderer', page: '/direction-renderer', disabled: true },
   // { label: 'Heat Map layer', page: '/heat-map-layer', disabled: true },
-  {
-    label: 'Map Geocoder as a service',
-    page: '/geocoder-as-service',
-    disabled: true,
-  },
+  // {
+  //   label: 'Map Geocoder as a service',
+  //   page: '/geocoder-as-service',
+  //   disabled: true,
+  // },
 ];
