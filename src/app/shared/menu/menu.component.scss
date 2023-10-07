@@ -1,0 +1,18 @@
+.menu-card-container {
+  background-color: #3366ff;
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}

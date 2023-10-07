@@ -1,0 +1,11 @@
+<mat-card class="menu-card-container">
+  <mat-card-content>
+    <ul class="menu-options">
+      <li *ngFor="let option of menuOptions" class="menu-options__option">
+        <a class="link" [routerLink]="option.page">
+          {{ option.label }}
+        </a>
+      </li>
+    </ul>
+  </mat-card-content>
+</mat-card>
