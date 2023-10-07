@@ -14,6 +14,10 @@ These are some of google maps utilities with examples
 
 - Use os Google Maps Markers [see this link](./src/app/pages/marker/marker.md).
 
+### Info Window (vinculated to a marker)
+
+- Use of Info Window vinculated to a marker [see this link](./src/app/pages/info-window/info-window.md).
+
 ## Reference Article
 
 See [google maps reference article](https://www.c-sharpcorner.com/article/how-to-integrate-google-maps-in-angular-14-app/).
