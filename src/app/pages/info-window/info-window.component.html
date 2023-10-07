@@ -1,1 +1,15 @@
-<p>info-window works!</p>
+<google-map
+  height="400px"
+  width="750px"
+  [center]="center"
+  [zoom]="zoom"
+  (mapClick)="addMarker($event)"
+>
+  <map-marker
+    #marker="mapMarker"
+    *ngFor="let markerPosition of markerPositions"
+    [position]="markerPosition"
+    (mapClick)="openInfoWindow(marker)"
+  ></map-marker>
+  <map-info-window> Information vinculated to this marker </map-info-window>
+</google-map>
