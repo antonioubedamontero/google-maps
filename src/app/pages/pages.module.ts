@@ -16,6 +16,8 @@ import { HeatMapLayerComponent } from './heat-map-layer/heat-map-layer.component
 import { GeocoderAsServiceComponent } from './geocoder-as-service/geocoder-as-service.component';
 import { InfoWindowComponent } from './info-window/info-window.component';
 import { PolygonComponent } from './polygon/polygon.component';
+import { CoreModule } from '../core/core.module';
+import { SharedModule } from '../shared/shared.module';
 
 const COMPONENTS = [
   BasicComponent,
@@ -37,7 +39,7 @@ const COMPONENTS = [
 
 @NgModule({
   declarations: [...COMPONENTS],
-  imports: [CommonModule],
+  imports: [CommonModule, CoreModule],
   exports: [...COMPONENTS],
 })
 export class PagesModule {}
