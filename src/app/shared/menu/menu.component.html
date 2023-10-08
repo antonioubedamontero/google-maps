@@ -2,7 +2,12 @@
   <mat-card-content>
     <ul class="menu-options">
       <li *ngFor="let option of menuOptions" class="menu-options__option">
-        <a class="link" [routerLink]="option.page">
+        <a
+          class="link"
+          [ngClass]="{ 'link--disabled': option.disabled }"
+          [routerLink]="!option.disabled ? option.page : null"
+          [class.disabled]="option.disabled"
+        >
           {{ option.label }}
         </a>
       </li>

@@ -15,4 +15,9 @@
   text-decoration: none;
   cursor: pointer;
   color: white;
+
+  &--disabled {
+    color: lightgray;
+    cursor: pointer;
+  }
 }
