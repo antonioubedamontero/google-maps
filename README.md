@@ -30,6 +30,10 @@ These are some of google maps utilities with examples
 
 - Use of Google Maps Rectangle [see this link](./src/app/pages/rectangle/rectangle.md).
 
+## Google Maps Circle
+
+- Use of Google Maps Circle [see this link](./src/app/pages/circle/circle.md).
+
 ## Reference Article
 
 See [google maps reference article](https://www.c-sharpcorner.com/article/how-to-integrate-google-maps-in-angular-14-app/).
