@@ -2,7 +2,8 @@
 
 Marker Google Maps examples.
 
-See more on this [Google Maps Article Reference](https://developers.google.com/maps/documentation/javascript?hl=es-419).
+- See more on this [Google Maps Article Reference](https://developers.google.com/maps/documentation/javascript?hl=es-419).
+- Go to [main page](../../../../README.md).
 
 ## Steps:
 
