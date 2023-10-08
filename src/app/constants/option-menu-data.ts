@@ -6,7 +6,7 @@ export const OPTION_MENU_DATA: MenuOption[] = [
   { label: 'Info window', page: '/info-window', disabled: false },
   { label: 'Polyline', page: '/poly-line', disabled: false },
   { label: 'Polygon', page: '/polygon', disabled: false },
-  { label: 'Map Rectangle', page: '/rectangle', disabled: true },
+  { label: 'Map Rectangle', page: '/rectangle', disabled: false },
   { label: 'Circle', page: '/circle', disabled: true },
   { label: 'Ground Overlay', page: '/ground-overlay', disabled: true },
   { label: 'KML layer', page: '/kml-layer', disabled: true },
