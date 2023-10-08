@@ -26,6 +26,10 @@ These are some of google maps utilities with examples
 
 - Use of Google Maps Polygon [see this link](./src/app/pages/polygon/polygon.md).
 
+## Google Maps Rectangle
+
+- Use of Google Maps Rectangle [see this link](./src/app/pages/rectangle/rectangle.md).
+
 ## Reference Article
 
 See [google maps reference article](https://www.c-sharpcorner.com/article/how-to-integrate-google-maps-in-angular-14-app/).
