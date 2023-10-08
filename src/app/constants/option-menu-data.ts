@@ -4,7 +4,7 @@ export const OPTION_MENU_DATA: MenuOption[] = [
   { label: 'Basic', page: '/basic', disabled: false },
   { label: 'Marker', page: '/marker', disabled: true },
   { label: 'Info window', page: '/info-window', disabled: true },
-  // { label: 'Polyline', page: '/poly-line', disabled: true },
+  { label: 'Polyline', page: '/poly-line', disabled: true },
   // { label: 'Polygon', page: '/polygon', disabled: true },
   // { label: 'Map Rectangle', page: '/rectangle', disabled: true },
   // { label: 'Circle', page: '/circle', disabled: true },
