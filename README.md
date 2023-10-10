@@ -38,6 +38,10 @@ These are some of google maps utilities with examples
 
 - Use of Google Maps Ground Overlay [see this link](./src/app/pages/ground-overlay/ground-overlay.md).
 
+## Google Maps Kml Layer
+
+- Use of Google Maps Kml Layer [see this link](./src/app/pages/kml-layer/kml-layer.md).
+
 ## Reference Article
 
 See [google maps reference article](https://www.c-sharpcorner.com/article/how-to-integrate-google-maps-in-angular-14-app/).
