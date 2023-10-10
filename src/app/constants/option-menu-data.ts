@@ -12,7 +12,7 @@ export const OPTION_MENU_DATA: MenuOption[] = [
   { label: 'KML layer', page: '/kml-layer', disabled: false },
   { label: 'Traffic Layer', page: '/traffic-layer', disabled: false },
   { label: 'Transit Layer', page: '/transit-layer', disabled: false },
-  { label: 'Bicycle layer', page: '/bcycle-layer', disabled: true },
+  { label: 'Bicycle layer', page: '/bcycle-layer', disabled: false },
   { label: 'Direction Renderer', page: '/direction-renderer', disabled: true },
   { label: 'Heat Map layer', page: '/heat-map-layer', disabled: true },
   {
