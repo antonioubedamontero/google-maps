@@ -34,6 +34,10 @@ These are some of google maps utilities with examples
 
 - Use of Google Maps Circle [see this link](./src/app/pages/circle/circle.md).
 
+## Google Maps Ground Overlay
+
+- Use of Google Maps Ground Overlay [see this link](./src/app/pages/ground-overlay/ground-overlay.md).
+
 ## Reference Article
 
 See [google maps reference article](https://www.c-sharpcorner.com/article/how-to-integrate-google-maps-in-angular-14-app/).
