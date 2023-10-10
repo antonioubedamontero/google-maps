@@ -2,6 +2,8 @@
 
 This project is intented to show how Google Maps works with Angular.
 
+The library we are using for developing Google Maps is @angular/google-maps [see here](https://www.npmjs.com/package/@angular/google-maps).
+
 ## Google Maps sections
 
 These are some of google maps utilities with examples
@@ -41,6 +43,10 @@ These are some of google maps utilities with examples
 ## Google Maps Kml Layer
 
 - Use of Google Maps Kml Layer [see this link](./src/app/pages/kml-layer/kml-layer.md).
+
+## Google Maps Traffic Layer
+
+- Use of Google Maps Traffic Layer [see this link](./src/app/pages/traffic-layer/traffic-layer.md).
 
 ## Reference Article
 
