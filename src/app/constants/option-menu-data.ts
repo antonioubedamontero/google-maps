@@ -14,7 +14,7 @@ export const OPTION_MENU_DATA: MenuOption[] = [
   { label: 'Transit Layer', page: '/transit-layer', disabled: false },
   { label: 'Bicycle layer', page: '/bcycle-layer', disabled: false },
   { label: 'Direction Renderer', page: '/direction-renderer', disabled: false },
-  { label: 'Heat Map layer', page: '/heat-map-layer', disabled: true },
+  { label: 'Heat Map layer', page: '/heat-map-layer', disabled: false },
   {
     label: 'Map Geocoder as a service',
     page: '/geocoder-as-service',
