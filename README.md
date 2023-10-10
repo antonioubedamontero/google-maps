@@ -52,6 +52,10 @@ These are some of google maps utilities with examples
 
 - Use of Google Maps Transiet Layer [see this link](./src/app/pages/transient-layer/transit-layer.md).
 
+## Google Maps Bicycle Layer
+
+- Use of Google Maps Bicycle Layer [see this link](./src/app/pages/bcycle-layer/bicycle-layer.md).
+
 ## Reference Article
 
 See [google maps reference article](https://www.c-sharpcorner.com/article/how-to-integrate-google-maps-in-angular-14-app/).
