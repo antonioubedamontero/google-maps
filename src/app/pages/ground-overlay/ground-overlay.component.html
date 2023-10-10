@@ -1,1 +1,6 @@
-<p>ground-overlay works!</p>
+<google-map height="400px" width="750px" [center]="center" [zoom]="zoom">
+  <map-ground-overlay
+    url="./assets/images/pizza.jpg"
+    [bounds]="imageBounds"
+  ></map-ground-overlay>
+</google-map>

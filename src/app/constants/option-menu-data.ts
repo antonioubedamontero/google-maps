@@ -8,7 +8,7 @@ export const OPTION_MENU_DATA: MenuOption[] = [
   { label: 'Polygon', page: '/polygon', disabled: false },
   { label: 'Map Rectangle', page: '/rectangle', disabled: false },
   { label: 'Circle', page: '/circle', disabled: false },
-  { label: 'Ground Overlay', page: '/ground-overlay', disabled: true },
+  { label: 'Ground Overlay', page: '/ground-overlay', disabled: false },
   { label: 'KML layer', page: '/kml-layer', disabled: true },
   { label: 'Traffic Layer', page: '/traffic-layer', disabled: true },
   { label: 'Transient Layer', page: '/transient-layer', disabled: true },
