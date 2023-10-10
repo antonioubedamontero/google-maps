@@ -60,6 +60,10 @@ These are some of google maps utilities with examples
 
 - Use of Google Maps Direction Renderer [see this link](./src/app/pages/direction-renderer/direction-renderer.md).
 
+## Google Maps Heat Map Layer
+
+- Use of Google Maps Heat Map Layer [see this link](./src/app/pages/heat-map-layer/heat-map-layer.md).
+
 ## Reference Article
 
 See [google maps reference article](https://www.c-sharpcorner.com/article/how-to-integrate-google-maps-in-angular-14-app/).
