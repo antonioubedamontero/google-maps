@@ -28,7 +28,7 @@ const routes: Routes = [
   { path: 'ground-overlay', component: GroundOverlayComponent },
   { path: 'kml-layer', component: KmlLayerComponent },
   { path: 'traffic-layer', component: TrafficLayerComponent },
-  { path: 'transient-layer', component: TransientLayerComponent },
+  { path: 'transit-layer', component: TransientLayerComponent },
   { path: 'bcycle-layer', component: BcycleLayerComponent },
   { path: 'direction-renderer', component: DirectionRendererComponent },
   { path: 'heat-map-layer', component: HeatMapLayerComponent },

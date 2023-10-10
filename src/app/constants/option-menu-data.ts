@@ -11,7 +11,7 @@ export const OPTION_MENU_DATA: MenuOption[] = [
   { label: 'Ground Overlay', page: '/ground-overlay', disabled: false },
   { label: 'KML layer', page: '/kml-layer', disabled: false },
   { label: 'Traffic Layer', page: '/traffic-layer', disabled: false },
-  { label: 'Transient Layer', page: '/transient-layer', disabled: true },
+  { label: 'Transit Layer', page: '/transit-layer', disabled: false },
   { label: 'Bicycle layer', page: '/bcycle-layer', disabled: true },
   { label: 'Direction Renderer', page: '/direction-renderer', disabled: true },
   { label: 'Heat Map layer', page: '/heat-map-layer', disabled: true },
