@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HeatMapLayerComponent } from './heat-map-layer.component';
+import { CoreModule } from 'src/app/core/core.module';
 
 describe('HeatMapLayerComponent', () => {
   let component: HeatMapLayerComponent;
@@ -8,7 +9,8 @@ describe('HeatMapLayerComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HeatMapLayerComponent]
+      declarations: [HeatMapLayerComponent],
+      imports: [CoreModule],
     });
     fixture = TestBed.createComponent(HeatMapLayerComponent);
     component = fixture.componentInstance;

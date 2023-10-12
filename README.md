@@ -67,3 +67,20 @@ These are some of google maps utilities with examples
 ## Reference Article
 
 See [google maps reference article](https://www.c-sharpcorner.com/article/how-to-integrate-google-maps-in-angular-14-app/).
+
+## Steps to Fix tests
+
+- Download google app js (clicking in script url without key):
+  [click here to download](https://maps.googleapis.com/maps/api/js?libraries=visualization).
+
+- Place file in a folder (ex: mocks/google-maps-testing.js).
+- In angular.json, place this code in test section:
+
+```
+    "test": {
+        ...
+        "scripts": [
+              "src/app/mocks/google-maps-testing.js"
+        ]
+    }
+```

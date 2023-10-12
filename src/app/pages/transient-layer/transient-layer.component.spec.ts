@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TransientLayerComponent } from './transient-layer.component';
+import { CoreModule } from 'src/app/core/core.module';
 
 describe('TransientLayerComponent', () => {
   let component: TransientLayerComponent;
@@ -8,7 +9,8 @@ describe('TransientLayerComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [TransientLayerComponent]
+      declarations: [TransientLayerComponent],
+      imports: [CoreModule],
     });
     fixture = TestBed.createComponent(TransientLayerComponent);
     component = fixture.componentInstance;

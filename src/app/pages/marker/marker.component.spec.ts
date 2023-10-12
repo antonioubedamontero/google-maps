@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MarkerComponent } from './marker.component';
+import { CoreModule } from 'src/app/core/core.module';
 
 describe('MarkerComponent', () => {
   let component: MarkerComponent;
@@ -8,7 +9,8 @@ describe('MarkerComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [MarkerComponent]
+      declarations: [MarkerComponent],
+      imports: [CoreModule],
     });
     fixture = TestBed.createComponent(MarkerComponent);
     component = fixture.componentInstance;
