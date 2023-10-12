@@ -18,6 +18,6 @@ export const OPTION_MENU_DATA: MenuOption[] = [
   {
     label: 'Map Geocoder as a service',
     page: '/geocoder-as-service',
-    disabled: true,
+    disabled: false,
   },
 ];

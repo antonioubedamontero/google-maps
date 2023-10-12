@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GroundOverlayComponent } from './ground-overlay.component';
+import { CoreModule } from 'src/app/core/core.module';
 
 describe('GroundOverlayComponent', () => {
   let component: GroundOverlayComponent;
@@ -8,7 +9,8 @@ describe('GroundOverlayComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [GroundOverlayComponent]
+      declarations: [GroundOverlayComponent],
+      imports: [CoreModule],
     });
     fixture = TestBed.createComponent(GroundOverlayComponent);
     component = fixture.componentInstance;

@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CircleComponent } from './circle.component';
+import { CoreModule } from 'src/app/core/core.module';
 
 describe('CircleComponent', () => {
   let component: CircleComponent;
@@ -8,7 +9,8 @@ describe('CircleComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [CircleComponent]
+      declarations: [CircleComponent],
+      imports: [CoreModule],
     });
     fixture = TestBed.createComponent(CircleComponent);
     component = fixture.componentInstance;
